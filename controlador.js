@@ -1,0 +1,1 @@
+desenharBandeirasCards('container-bandeiras', paisesPopulares);

@@ -1,0 +1,172 @@
+*{
+    font-family: 'segoe UI', Tahoma, sans-serif ;
+ }
+ 
+ body{
+    background-color: rgb(129, 103, 136);
+    color: rgb(255, 252, 252);
+ }
+ 
+ .form-login{
+    max-width: 300px;
+ 
+    /*border: solid 1px #b30606;*/
+    background-color: #808080;
+ 
+    padding: 10px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+ 
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 8px;
+ }
+ 
+ .form-login .linha-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+ }
+ 
+ .form-login .ipt{ /*Para estilizar caixa de texto*/
+    background-color: rgb(27, 2, 2);
+    color: rgb(200, 156, 156);
+    font-size: 24px;
+    border-radius: 8px;
+ }
+ 
+ .btnPrimario{
+    background-color: brown;
+    color: pink;
+    padding: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+ }
+ 
+ /*--------------*/
+ 
+ .container-cards{
+    /*border: dashed 2px rgb(98, 0, 255);*/
+ 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /*espaço entre os elementos filhos.*/
+ }
+ 
+ .card{
+    /*border: dashed 1px rgb(164, 128, 255);*/
+ 
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 2%;
+    background-color: rgb(36, 10, 51);
+ }
+
+ .card-incial{
+    /*border: dashed 1px rgb(164, 128, 255);*/
+ 
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 2%;
+    background-color: rgb(36, 10, 51);
+ }
+ 
+ .card > .avatar{
+    /*border: dashed 1px rgb(170, 88, 0);*/
+   
+    width: 120px;
+    object-fit: cover; /*Não distorce a imagem, mas pode cortar*/
+    height: 120px;
+    border-radius: 120px;
+ }
+ 
+ .card > .conteudo{
+    /*border: dashed 1px rgb(195, 228, 49);*/
+   
+    width: 100%;
+    padding-left: 20px;
+ }
+ 
+ .card > .barra-botoes{
+    /*border: dashed 1px rgb(49, 228, 153);*/
+   
+    width: 80px;
+ }
+ 
+ .card > .barra-botoes > .btn-icone{
+    border: solid 1px rgb(255, 187, 93);
+ 
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(204, 159, 255);
+ }
+
+ .card > .mais-fotos{
+      /*border: dashed 1px rgb(170, 88, 0);*/
+   
+      width: 120px;
+      object-fit: cover; /*Não distorce a imagem, mas pode cortar*/
+      height: 120px;
+      border-radius: 120px;
+      flex-direction: row;
+      
+ }
+ 
+ /*-------------------------*/
+ 
+ .card-expandido{
+     display: flex;
+     flex-direction: column;
+     gap: 12px;
+     max-width: 800px;
+     /* border: solid 1px #ffffff; */
+ }
+  
+ .card-expandido > .avatar{
+     max-height: 300px;
+     aspect-ratio: 4/3;
+     object-fit: cover;
+ }
+ 
+  
+ 
+ .card-expandido > .conteudo{
+     display: flex;
+     flex-direction: column;
+     padding: 8px 24px;
+     /* border: dashed 1px #ffffff; */
+ }
+ 
+ .card-expandido > .conteudo > .titulo{
+     margin: 0;
+     color:rgb(255, 187, 93);
+ }
+ 
+ .card-expandido > .barra-botoes{
+     display: flex;
+     flex-direction: row;
+     gap: 8px ;
+     padding: 8px 24px;
+ }
+ 
+ .card-expandido > .barra-botoes > button{
+     width: 100%;
+ }
+ 
+  /*-------------------------*/
+
+  .lista-h3{
+    
+     display: flex;
+     gap: 12px;
+     max-width: 800px;
+      /*border: solid 10px #ffffff; */
+  }
