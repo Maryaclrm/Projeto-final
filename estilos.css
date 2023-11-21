@@ -3,15 +3,15 @@
  }
  
  body{
-    background-color: rgb(129, 103, 136);
-    color: rgb(255, 252, 252);
+    background-color: rgb(255, 255, 255);
+    color: rgb(150, 0, 0);
  }
  
  .form-login{
     max-width: 300px;
  
     /*border: solid 1px #b30606;*/
-    background-color: #808080;
+    background-color: rgb(245, 153, 153);
  
     padding: 10px;
     margin: auto;
@@ -63,7 +63,7 @@
     flex-direction: row;
     gap: 8px;
     padding: 2%;
-    background-color: rgb(36, 10, 51);
+    background-color: rgb(245, 153, 153);
  }
 
  .card-incial{
@@ -92,6 +92,15 @@
     width: 100%;
     padding-left: 20px;
  }
+
+
+ .card > .conteudo > .titulo > a{
+   color: rgb(67, 30, 43);
+ }
+
+ .card > .conteudo > .descricao{
+   color: rgb(0, 0, 0);
+ }
  
  .card > .barra-botoes{
     /*border: dashed 1px rgb(49, 228, 153);*/
@@ -100,24 +109,13 @@
  }
  
  .card > .barra-botoes > .btn-icone{
-    border: solid 1px rgb(255, 187, 93);
+    border: solid 1px rgb(255, 227, 125);
  
     width: 30px;
     height: 30px;
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
-    color:rgb(204, 159, 255);
- }
-
- .card > .mais-fotos{
-      /*border: dashed 1px rgb(170, 88, 0);*/
-   
-      width: 120px;
-      object-fit: cover; /*Não distorce a imagem, mas pode cortar*/
-      height: 120px;
-      border-radius: 120px;
-      flex-direction: row;
-      
+    color:rgb(255, 179, 37);
  }
  
  /*-------------------------*/
@@ -127,6 +125,8 @@
      flex-direction: column;
      gap: 12px;
      max-width: 800px;
+     color: rgb(150, 0, 0);
+     background-color: rgb(255, 255, 255);
      /* border: solid 1px #ffffff; */
  }
   
@@ -159,6 +159,7 @@
  
  .card-expandido > .barra-botoes > button{
      width: 100%;
+     color: rgb(255, 179, 39);
  }
  
   /*-------------------------*/
